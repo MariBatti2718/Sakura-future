@@ -9,12 +9,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 70xp;
+  height: 70px;
   display: flex;
-  justify-content: space-between;
-  aling-times: center;
-  padding: 0 40xp;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
   background-color: #0d0d0d;
+  flex-direction: column;
 }
 #INICIO {
   width: 100%;
