@@ -1,0 +1,83 @@
+:root {
+  --fundo: #0a0a12;
+  --fundo2: #0d0d1a;
+  --texto: #e8e8f0;
+  --texto-fraco: #5a5a7a;
+  --ciano: #00ffff;
+  --magenta: #ff00ff;
+  --laranja: #ff8800;
+  --borda: #1a1a2e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: sans-serif;
+}
+
+nav {
+  background: var(--fundo);
+  border-bottom: 1px solid var(--ciano);
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a {
+  color: var(--ciano);
+  text-decoration: none;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+nav ul a {
+  color: var(--texto-fraco);
+}
+
+nav ul a:hover {
+  color: var(--ciano);
+}
+#principal {
+  padding: 100px 40px;
+  text-align: center;
+}
+
+#principal h1 {
+  font-family: 'Courier New', monospace;
+  font-size: 64px;
+  color: var(--ciano);
+  margin-bottom: 16px;
+}
+
+#principal p {
+  font-size: 16px;
+  color: var(--texto-fraco);
+  margin-bottom: 12px;
+}
+
+#principal a {
+  display: inline-block;
+  color: var(--ciano);
+  border: 1px solid var(--ciano);
+  padding: 12px 24px;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  text-decoration: none;
+  margin: 20px 8px 0;
+}
+
+#principal a:hover {
+  background: var(--ciano);
+  color: var(--fundo);
+}
