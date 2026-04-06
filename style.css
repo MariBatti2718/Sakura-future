@@ -56,6 +56,18 @@ nav ul a:hover {
 #principal {
   padding: 100px 40px;
   text-align: center;
+  background-image: url('cozinha2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #principal h1 {
@@ -63,6 +75,7 @@ nav ul a:hover {
   font-size: 64px;
   color: var(--ciano);
   margin-bottom: 16px;
+  text-shadow: 0 0 20px var(--ciano), 0 0 40px var(--ciano);
 }
 
 #principal p {
@@ -95,7 +108,7 @@ nav ul a:hover {
 #destaques h2 {
   font-family: "Courier New", monospace;
   font-size: 32px;
-  color: var(--texto);
+  color: var(--ciano);
   margin-bottom: 12px;
 }
 
@@ -182,7 +195,7 @@ article span {
 #reserva h2 {
   font-family: "Courier New", monospace;
   font-size: 32px;
-  color: var(--texto);
+  color: var(--ciano);
   margin-bottom: 16px;
 }
 
@@ -436,3 +449,4 @@ img {
   background: var(--ciano);
   color: var(--fundo);
 }
+background-image: url (cozinha2.jpg);
