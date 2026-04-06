@@ -157,13 +157,15 @@ article span {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 #sobre h2 {
   font-family: "Courier New", monospace;
   font-size: 32px;
   color: var(--ciano);
-  margin-bottom: 24px;
+  margin-bottom: 28px;
+  text-align: center;
 }
 
 #sobre p {
@@ -172,6 +174,7 @@ article span {
   line-height: 1.8;
   margin-bottom: 16px;
   max-width: 600px;
+  text-align: center;
 }
 
 #sobre a {
@@ -189,6 +192,7 @@ article span {
 #sobre a:hover {
   color: var(--magenta);
   border-color: var(--magenta);
+  text-align: center;
 }
 
 #reserva {
